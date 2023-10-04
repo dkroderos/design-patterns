@@ -9,6 +9,7 @@ Welcome to my implementation of Design Patterns! This repository is a collection
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
+- [Follow Me](#follow-me)
 
 ## Introduction
 
@@ -52,3 +53,11 @@ We welcome contributions to this repository! If you'd like to add new design pat
 ## License
 
 This repository is open-source and is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for your own projects.
+
+## Follow Me
+
+If you find the content and implementations in this repository valuable, consider following me on GitHub for updates on my latest projects, contributions, and software development insights.
+
+You can [follow me here](https://github.com/davidkingroderos).
+
+Your support is greatly appreciated, and I look forward to connecting with you in the GitHub community!
