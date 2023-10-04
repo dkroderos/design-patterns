@@ -1,19 +1,28 @@
-## Programming Challenge
+# Command Pattern for Smart Home Automation System
+Welcome to my GitHub repository for a simple implementation of a smart home program using the Command Pattern. In this README, I'll provide a brief overview of the Command Pattern and how it's applied in this project.
 
-Design a system that uses a special remote control to send commands to different devices. The key idea is to create a way for the remote control to control multiple devices without knowing the specifics of each device. Specifically:
+# What is the Command Pattern?
+The Command Pattern is a behavioral design pattern that turns a request into a stand-alone object, which contains all the information about the request. This allows you to decouple the sender of a request from its receiver, providing greater flexibility and extensibility in your code.
 
-Create a remote control that can send commands like "Power On" and "Power Off."
+In simpler terms, it helps you encapsulate actions as objects, making it easy to manage and execute various operations without directly invoking them.
 
-Implement separate commands for "Turn On" and "Turn Off."
+# Implementation of Smart Home Control
+In this project, I've applied the Command Pattern to create a simple smart home control system. With this system, you can easily issue commands to control different smart devices in your home, such as lights, thermostats, and more.
 
-Develop a system where devices (e.g., TV, stereo, lights) can respond to these commands. Each device should have its unique behavior for turning on and off.
+Smart Home Control
 
-Ensure that the remote control can send these commands to any device without knowing how each device works internally.
+# How it Works
+**Commands**: Each type of action you can perform on your smart devices is encapsulated as a Command object. For example, turning on the lights, adjusting the thermostat, or locking the door.
 
-Your challenge is to apply a design pattern that allows this remote control to be flexible and extensible, enabling it to control various devices effortlessly. This should be achieved without the remote control having to understand the specific details of how each device operates.
+**Invoker**: The Invoker is responsible for invoking these Command objects. It doesn't need to know the specifics of how each command works; it just knows how to execute them.
 
-## Class Diagram
-![image](https://github.com/JerryEsperanza/commandpattern/assets/142370600/803de011-db55-482b-8008-b0cf8c07bd1e)
+**Receive**rs: These are the smart devices themselves. Each Command knows which Receiver it should interact with to perform the desired action.
 
-## Reference
-https://github.com/JerryEsperanza/commandpattern
+By organizing your code in this way, you can easily add new commands and extend the functionality of your smart home system without modifying existing code.
+
+# UML Diagram
+Here's a simplified UML diagram to help you visualize the structure of the Command Pattern in this project:
+
+Command Pattern UML Diagram
+
+Feel free to explore the source code to see how these concepts are implemented in practice. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to me.
