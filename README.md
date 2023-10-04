@@ -51,4 +51,4 @@ We welcome contributions to this repository! If you'd like to add new design pat
 
 ## License
 
-This repository is open-source and is licensed under the [MIT License](LICENSE). Feel free to us
+This repository is open-source and is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for your own projects.
