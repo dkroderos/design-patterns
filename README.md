@@ -1,6 +1,6 @@
 # Design Patterns
 
-Welcome to the implementation of Design Patterns! This repository is a collection of code examples and explanations for various design patterns implemented in different programming languages.
+Welcome to my implementation of Design Patterns! This repository is a collection of code examples and explanations for various design patterns implemented in different programming languages.
 
 ## Table of Contents
 
