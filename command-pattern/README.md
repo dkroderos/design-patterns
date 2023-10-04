@@ -6,10 +6,12 @@ The Command Pattern is a behavioral design pattern that turns a request into a s
 
 In simpler terms, it helps you encapsulate actions as objects, making it easy to manage and execute various operations without directly invoking them.
 
-# Implementation of Smart Home Control
-In this project, I've applied the Command Pattern to create a simple smart home control system. With this system, you can easily issue commands to control different smart devices in your home, such as lights, thermostats, and more.
+# Implementation of Smart Home Automation System
+In this project, I've applied the Command Pattern to create a simple smart home automation system. With this system, you can easily issue commands to control different smart devices in your home, such as lights, thermostats, and more.
 
-Smart Home Control
+![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/8fdfc338-2f8f-40d5-aba7-e770d84deb27)
+
+
 
 # How it Works
 **Commands**: Each type of action you can perform on your smart devices is encapsulated as a Command object. For example, turning on the lights, adjusting the thermostat, or locking the door.
@@ -23,6 +25,7 @@ By organizing your code in this way, you can easily add new commands and extend 
 # UML Diagram
 Here's a simplified UML diagram to help you visualize the structure of the Command Pattern in this project:
 
-Command Pattern UML Diagram
+![Blank diagram](https://github.com/davidkingroderos/design-patterns/assets/75028710/d71a4c72-3118-4e81-a1df-e6ea802e660d)
+
 
 Feel free to explore the source code to see how these concepts are implemented in practice. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to me.
