@@ -26,7 +26,7 @@ Here's a list of design patterns included in this repository:
 5. [Strategy](/strategy): Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
 6. [Decorator](/decorator): Allows you to attach additional responsibilities to objects dynamically.
 7. [Command](/command-pattern): Encapsulates a request as an object, thereby allowing for parameterization of clients with queues, requests, and operations.
-8. [Adapter](/adapter): Allows the interface of an existing class to be used as another interface.
+8. [Adapter](/adapter-pattern): Allows the interface of an existing class to be used as another interface.
 9. [Composite](/composite): Composes objects into tree structures to represent part-whole hierarchies.
 10. [State](/state): Allows an object to alter its behavior when its internal state changes.
 
