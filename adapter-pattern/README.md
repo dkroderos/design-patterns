@@ -6,24 +6,34 @@ The Command Pattern is a behavioral design pattern that turns a request into a s
 
 In simpler terms, it helps you encapsulate actions as objects, making it easy to manage and execute various operations without directly invoking them.
 
-# Smart Home Automation Problem
+# Plugging Devices into Power Outlets
 
-Imagine you're building a smart home automation system where various devices (lights, thermostat, music player, etc.) can be controlled remotely using a central hub or app. Each device has different functionalities, but you want to create a unified and flexible control mechanism.
+You are developing an application that helps users manage and control various electronic devices by plugging them into power outlets. Each device has different plug types, voltage, and amperage requirements. To ensure compatibility and safety, you need to create adapters for different devices to allow them to be plugged into standard power outlets.
 
-Design a system that allows you to control multiple smart home devices with ease. Your goal is to create a solution where:
+## Adaptee Objects:
 
-1. You can control a variety of devices from a central hub or app, sending commands like "Turn On," "Turn Off," "Increase Temperature," "Decrease Volume," etc.
-2. Each device has unique actions associated with these commands. For example, turning on the lights might involve changing their brightness level, while turning on the music player may involve playing a specific playlist.
-3. New devices can be seamlessly integrated into the system without modifying existing code. You want to ensure that adding a new device doesn't require changes to the central control logic.
-4. Devices can be controlled without the central hub or app needing to understand the internal workings of each device. It should send high-level commands without needing low-level details.
+1. Laptop - Represents a laptop device that needs to be plugged into a power source. It has the charge() method.
 
-Your challenge is to apply a design pattern that provides a flexible and scalable way to control a variety of smart home devices, ensuring that new devices can be added without disrupting the existing system's functionality.
+2. Refrigerator - Represents a refrigerator device that requires a power source. It has the startCooling() method.
 
-# Implementation of Smart Home Automation System
+3. SmartphoneCharger - Represents a smartphone charger that needs to be plugged in for charging. It has the chargePhone() method.
+
+## Target Object:
+
+1. PowerOutlet - Represents a standard power outlet with a common interface for plugging in devices. It defines the plugIn() method as the target method.
+
+## Adapter Objects:
+
+1. LaptopAdapter - An adapter for plugging a laptop into a standard power outlet. It adapts the Laptop to the PowerOutlet interface, translating plugIn() to charge().
+
+2. RefrigeratorAdapter - An adapter for plugging a refrigerator into a standard power outlet. It adapts the Refrigerator to the PowerOutlet interface, translating plugIn() to startCooling().
+
+3. SmartphoneAdapter - An adapter for plugging a smartphone charger into a standard power outlet. It adapts the SmartphoneCharger to the PowerOutlet interface, translating plugIn() to chargePhone().
+
+# Implementation of the Adapter Pattern
 In this project, I've applied the Command Pattern to create a simple smart home automation system. With this system, you can easily issue commands to control different smart devices in your home, such as lights, thermostats, and more.
 
 ![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/8fdfc338-2f8f-40d5-aba7-e770d84deb27)
-
 
 
 # How it Works
