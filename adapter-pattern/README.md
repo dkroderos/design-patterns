@@ -1,8 +1,9 @@
-# Command Pattern for Smart Home Automation System
-Welcome to my GitHub repository for a simple implementation of a smart home program using the Command Pattern. In this README, I'll provide a brief overview of the Command Pattern and how it's applied in this project.
+# Adapter Pattern Implementation
+Welcome to my GitHub repository for a simple implementation of plugging devices into power outlets using the Adapter Pattern. In this README, I'll provide a brief overview of the Adapter Pattern and how it's applied in this project.
 
-# What is the Command Pattern?
-The Command Pattern is a behavioral design pattern that turns a request into a stand-alone object, which contains all the information about the request. This allows you to decouple the sender of a request from its receiver, providing greater flexibility and extensibility in your code.
+# What is the Adapter Pattern?
+
+The Adapter Design Pattern is a structural pattern that allows objects with incompatible interfaces to work together. It acts as a bridge between two interfaces, making them compatible without modifying their source code. The adapter pattern is commonly used to facilitate the interaction between different systems or classes that cannot communicate directly due to incompatible interfaces.
 
 In simpler terms, it helps you encapsulate actions as objects, making it easy to manage and execute various operations without directly invoking them.
 
@@ -31,24 +32,20 @@ You are developing an application that helps users manage and control various el
 3. SmartphoneAdapter - An adapter for plugging a smartphone charger into a standard power outlet. It adapts the SmartphoneCharger to the PowerOutlet interface, translating plugIn() to chargePhone().
 
 # Implementation of the Adapter Pattern
-In this project, I've applied the Command Pattern to create a simple smart home automation system. With this system, you can easily issue commands to control different smart devices in your home, such as lights, thermostats, and more.
+In this project, I've applied the Adapter Pattern to create a simple plugging devices in to power outlets. With this example, you can effectively integrate and make disparate interfaces function harmoniously.
 
-![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/8fdfc338-2f8f-40d5-aba7-e770d84deb27)
-
+![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/f680a1c5-0f57-4c1f-8382-f0e841f8266b)
 
 # How it Works
-**Commands**: Each type of action you can perform on your smart devices is encapsulated as a Command object. For example, turning on the lights, adjusting the thermostat, or locking the door.
+**Target**: The target is the interface that the client code expects and interacts with. This is the interface that the adapter will conform to, allowing the client to use the adapter as if it were an instance of the target interface.
 
-**Invoker**: The Invoker is responsible for invoking these Command objects. It doesn't need to know the specifics of how each command works; it just knows how to execute them.
+**Adaptee**: The adaptee is the class or interface that needs to be integrated or adapted. It has an interface that is incompatible with the client's expectations.
 
-**Receive**rs: These are the smart devices themselves. Each Command knows which Receiver it should interact with to perform the desired action.
-
-By organizing your code in this way, you can easily add new commands and extend the functionality of your smart home system without modifying existing code.
+**Adapter**: The adapter is a class that implements the target interface and acts as a wrapper for the adaptee. It translates or adapts the methods of the adaptee to the target interface. The adapter is responsible for delegating calls from the client to the adaptee.
 
 # UML Diagram
-Here's a simplified UML diagram to help you visualize the structure of the Command Pattern in this project:
+Here's a simplified UML diagram to help you visualize the structure of the Adapter Pattern in this project:
 
 ![Blank diagram](https://github.com/davidkingroderos/design-patterns/assets/75028710/d71a4c72-3118-4e81-a1df-e6ea802e660d)
-
 
 Feel free to explore the source code to see how these concepts are implemented in practice. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to me.
