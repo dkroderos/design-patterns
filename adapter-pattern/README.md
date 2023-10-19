@@ -46,6 +46,6 @@ In this project, I've applied the Adapter Pattern to create a simple plugging de
 # UML Diagram
 Here's a simplified UML diagram to help you visualize the structure of the Adapter Pattern in this project:
 
-![UML Diagram](https://github.com/davidkingroderos/design-patterns/assets/75028710/3a10d353-efa7-4e11-853f-3c61e6f321f9)
+![UML Diagram](https://github.com/davidkingroderos/design-patterns/assets/75028710/519c8315-47bd-441f-8317-4c55d2c67b13)
 
 Feel free to explore the source code to see how these concepts are implemented in practice. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to me.
