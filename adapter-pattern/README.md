@@ -34,7 +34,7 @@ You are developing an application that helps users manage and control various el
 # Implementation of the Adapter Pattern
 In this project, I've applied the Adapter Pattern to create a simple plugging devices in to power outlets. With this example, you can effectively integrate and make disparate interfaces function harmoniously.
 
-![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/f680a1c5-0f57-4c1f-8382-f0e841f8266b)
+![Preview](https://github.com/davidkingroderos/design-patterns/assets/75028710/f680a1c5-0f57-4c1f-8382-f0e841f8266b)
 
 # How it Works
 **Target**: The target is the interface that the client code expects and interacts with. This is the interface that the adapter will conform to, allowing the client to use the adapter as if it were an instance of the target interface.
@@ -46,6 +46,6 @@ In this project, I've applied the Adapter Pattern to create a simple plugging de
 # UML Diagram
 Here's a simplified UML diagram to help you visualize the structure of the Adapter Pattern in this project:
 
-![Blank diagram](https://github.com/davidkingroderos/design-patterns/assets/75028710/d71a4c72-3118-4e81-a1df-e6ea802e660d)
+![UML Diagram](https://github.com/davidkingroderos/design-patterns/assets/75028710/3a10d353-efa7-4e11-853f-3c61e6f321f9)
 
 Feel free to explore the source code to see how these concepts are implemented in practice. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to me.
