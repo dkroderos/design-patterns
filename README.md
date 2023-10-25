@@ -29,6 +29,7 @@ Here's a list of design patterns included in this repository:
 8. [Adapter](/adapter-pattern): Allows the interface of an existing class to be used as another interface.
 9. [Composite](/composite): Composes objects into tree structures to represent part-whole hierarchies.
 10. [State](/state): Allows an object to alter its behavior when its internal state changes.
+11. [Facade](/facade-pattern): It provides a simple, user-friendly interface to a complex system behind the scenes.
 
 Each design pattern has its dedicated directory with example code in various programming languages. Explore these directories to learn more about each design pattern's implementation.
 
