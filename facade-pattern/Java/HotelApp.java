@@ -46,8 +46,8 @@ public class HotelApp {
                 default:
                     System.out.println("Invalid choice... Try again!");
             }
-
         }
+
         scanner.close();
     }
 }
