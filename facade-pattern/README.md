@@ -22,7 +22,7 @@ FrontDesk: The facade class that coordinates interactions between the client (Ho
 HotelApp: The client class that uses the FrontDesk facade to access and utilize hotel services seamlessly.
 
 # Implementation of Simplified Hotel Management System
-In this project, I've applied the Command Pattern to create a simple smart home automation system. With this system, you can easily issue commands to control different smart devices in your home, such as lights, thermostats, and more.
+In this project, I've applied the Facade Pattern to create a simple simplified hotel management system. With this system, you can easily interact with the services of the hotel by just interacting in the front desk.
 
 ![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/4686f5aa-3dcd-45c7-abb9-8b167ee1cc0b)
 
