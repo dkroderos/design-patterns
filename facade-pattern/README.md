@@ -24,7 +24,7 @@ HotelApp: The client class that uses the FrontDesk facade to access and utilize 
 # Implementation of Simplified Hotel Management System
 In this project, I've applied the Command Pattern to create a simple smart home automation system. With this system, you can easily issue commands to control different smart devices in your home, such as lights, thermostats, and more.
 
-![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/8fdfc338-2f8f-40d5-aba7-e770d84deb27)
+![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/4686f5aa-3dcd-45c7-abb9-8b167ee1cc0b)
 
 # Benefits of the Facade Design Pattern
 
