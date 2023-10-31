@@ -38,6 +38,6 @@ Potentially Improved Performance: The Facade Design Pattern can potentially impr
 # UML Diagram
 Here's a simplified UML diagram to help you visualize the structure of the Facade Pattern in this project:
 
-![Blank diagram](https://github.com/davidkingroderos/design-patterns/assets/75028710/d71a4c72-3118-4e81-a1df-e6ea802e660d)
+![Blank diagram (3)](https://github.com/davidkingroderos/design-patterns/assets/75028710/e539685b-5be8-4773-bb8a-c6d61060bbad)
 
 Feel free to explore the source code to see how these concepts are implemented in practice. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to me.
