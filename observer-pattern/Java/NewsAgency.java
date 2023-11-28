@@ -4,17 +4,17 @@ class NewsAgency implements NewsPublisher {
     private ArrayList<Subscriber> subscribers = new ArrayList<>();
 
     @Override
-    public void registerSubscriber(Subscriber subscriber) {
+    public void subscribe(Subscriber subscriber) {
         subscribers.add(subscriber);
     }
 
     @Override
-    public void removeSubscriber(Subscriber subscriber) {
+    public void unsubscribe(Subscriber subscriber) {
         subscribers.remove(subscriber);
     }
 
     @Override
-    public void notifySubscribers(String news) {
+    public void notify(String news) {
         for (Subscriber subscriber : subscribers) {
             subscriber.update(news);
         }
@@ -22,6 +22,6 @@ class NewsAgency implements NewsPublisher {
 
     public void publishNews(String news) {
         System.out.println("Publishing breaking news: " + news);
-        notifySubscribers(news);
+        notify(news);
     }
 }
