@@ -19,10 +19,10 @@ Design patterns are essential tools for software developers to create well-struc
 
 Here's a list of design patterns included in this repository:
 
-1. [Singleton](/singleton): Ensures that a class has only one instance and provides a global point of access to it.
+1. [Singleton](/singleton-pattern): Ensures that a class has only one instance and provides a global point of access to it.
 2. [Factory Method](/factory-pattern): Defines an interface for creating an object, but allows subclasses to alter the type of objects that will be created.
 3. [Builder](/builder): Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
-4. [Observer](/observer): Defines a one-to-many dependency between objects, ensuring that when one object changes state, all its dependents are notified and updated automatically.
+4. [Observer](/observer-pattern): Defines a one-to-many dependency between objects, ensuring that when one object changes state, all its dependents are notified and updated automatically.
 5. [Strategy](/strategy): Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
 6. [Decorator](/decorator): Allows you to attach additional responsibilities to objects dynamically.
 7. [Command](/command-pattern): Encapsulates a request as an object, thereby allowing for parameterization of clients with queues, requests, and operations.
