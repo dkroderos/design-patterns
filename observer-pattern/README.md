@@ -28,6 +28,6 @@ The Observer pattern is useful when there is a need to maintain consistency betw
 # UML Diagram
 Here's a simplified UML diagram to help you visualize the structure of the Observer Pattern in this project:
 
-![Blank diagram (3)](https://github.com/davidkingroderos/design-patterns/assets/75028710/e539685b-5be8-4773-bb8a-c6d61060bbad)
+![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/e05bd3cf-cd33-4305-a527-ad57e6df6d03)
 
 Feel free to explore the source code to see how these concepts are implemented in practice. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to me.
