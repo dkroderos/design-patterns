@@ -28,6 +28,6 @@ The Decorator pattern is useful when there is a need to maintain consistency bet
 # UML Diagram
 Here's a simplified UML diagram to help you visualize the structure of the Decorator Pattern in this project:
 
-![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/e05bd3cf-cd33-4305-a527-ad57e6df6d03)
+![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/e058f7a3-343f-49c1-9f7f-c57e662ed0af)
 
 Feel free to explore the source code to see how these concepts are implemented in practice. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to me.
