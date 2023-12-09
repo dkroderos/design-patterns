@@ -25,6 +25,6 @@ The Singleton pattern ensures that only one instance of a class exists throughou
 # UML Diagram
 Here's a simplified UML diagram to help you visualize the structure of the Singleton Pattern in this project:
 
-![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/e05bd3cf-cd33-4305-a527-ad57e6df6d03)
+![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/b1be400c-cfcf-4b1a-bdf1-57108fd69800)
 
 Feel free to explore the source code to see how these concepts are implemented in practice. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to me.
