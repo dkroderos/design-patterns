@@ -11,16 +11,33 @@ CIMB is a digital bank that offers GSave and UpSave savings accounts.   As with 
 
 # Class Definitions:
 
+The typical savings account offers an interest rate of 1%.
+The benefits of the typical savings account is the same with the "Standard Savings Account" as compared to other banks.
+
 The GSave account offers an interest rate of 2.5%.
 Benefits include the "Standard Savings Account" plus access to "GCash transfer".
 
 The UpSave account offers the highest interest rate of 4.0%.
 Benefits include the "Standard Savings Account" plus "with Insurance".
 
+# Description of the following methods
+
+`showAccountType()` - Either returns "Savings Account", "GSave" or "UpSave"
+
+`getInterestRate()` - Either returns 1% for Savings Account; 2.5% for GSave; 4.0% UpSave
+
+`getBalance()` - Returns the balance of the account set.
+
+`showBenefits()` - Either returns "Standard Savings Account" for Savings Account; benefits offered by savings account + "GSave Transfer"; benefits offered by savings account + "With Insurance";
+                            
+`computeBalanceWithInterest()` - returns new balance by computing the balance plus the interest depending on the interest rate.
+
+`showInfo()` - Returns details of account number, account name, and balance.
 
 # Implementation of Digital Banking
 In this project, I've applied the Decorator Pattern to create a Digital Banking.
 
+![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/611e00a6-8f5b-4fbe-bd86-9d597aa28e68)
 
 # Benefits of the Decorator Design Pattern
 
@@ -31,6 +48,6 @@ By using decorators, you can extend the functionality of objects without subclas
 # UML Diagram
 Here's a simplified UML diagram to help you visualize the structure of the Decorator Pattern in this project:
 
-![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/e058f7a3-343f-49c1-9f7f-c57e662ed0af)
+![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/89326b18-f39a-4097-8c00-1428dc121ffa)
 
 Feel free to explore the source code to see how these concepts are implemented in practice. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to me.
