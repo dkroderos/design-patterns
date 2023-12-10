@@ -1,33 +1,36 @@
-# Observer Pattern for Real-time News Subscription Service
-Welcome to my GitHub repository for a simple implementation of a Real-time News Subscription Service using the Observer Pattern. In this README, I'll provide a brief overview of the Observer Pattern and how it's applied in this project.
+# Decorator Pattern for Digital Banking
+Welcome to my GitHub repository for a simple implementation of a Digital Banking using the Decorator Pattern. In this README, I'll provide a brief overview of the Decorator Pattern and how it's applied in this project.
 
-# What is the Observer Pattern?
+# What is the Decorator Pattern?
 
-The Observer Pattern is a behavioral design pattern that establishes a one-to-many dependency between objects, where changes in one object (the subject or publisher) result in the automatic notification and update of all dependent objects (observers or subscribers).
+The Decorator Pattern is a structural design pattern in object-oriented programming that allows behavior to be added to individual objects, dynamically, without affecting the behavior of other objects from the same class.
 
-# Real-time News Subscription Service
+# Digital Banking
 
-The goal is to design a real-time news subscription service for a media company. The system needs to notify subscribers about breaking news as soon as it's published by the news agency.
+CIMB is a digital bank that offers GSave and UpSave savings accounts.   As with a typical Savings Account, it contains accountNumber, accountName, and a balance for that account.
 
 # Class Definitions:
-Subject: an object that maintains a list of its dependents, also known as observers, and provides methods to add or remove observers. The subject notifies its observers automatically whenever its state changes.
 
-Observer: an object that is notified and updated by the subject whenever the state of the subject changes.
+The GSave account offers an interest rate of 2.5%.
+Benefits include the "Standard Savings Account" plus access to "GCash transfer".
 
-# Implementation of Simplified Hotel Management System
-In this project, I've applied the Observer Pattern to create a Real-time News Subscription Service. With this implementation, the clients can easily subscribe and unsubscribe in various services.
+The UpSave account offers the highest interest rate of 4.0%.
+Benefits include the "Standard Savings Account" plus "with Insurance".
 
-![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/80259536-7be1-4638-9d0c-2ba8154aafab)
 
-# Benefits of the Observer Design Pattern
+# Implementation of Digital Banking
+In this project, I've applied the Decorator Pattern to create a Digital Banking.
 
-This pattern promotes loose coupling between objects, as the subject doesn't need to know the specific details of its observers, only that they implement a common interface. It allows for a more dynamic relationship where many objects can observe a single subject, and any changes in the subject trigger updates in all connected observers.
 
-The Observer pattern is useful when there is a need to maintain consistency between related objects or when a change in one object should trigger changes in other objects without coupling them tightly together. Some examples of where the Observer pattern might be used include monitoring changes in a model-view-controller (MVC) architecture, handling events in graphical user interfaces, or managing stock prices in financial applications.
+# Benefits of the Decorator Design Pattern
+
+The Decorator Design Pattern provides a flexible and dynamic way to add new behaviors or functionalities to objects without altering their structure. It enables the enhancement of individual objects' functionality at runtime by wrapping them with one or more decorators.
+
+By using decorators, you can extend the functionality of objects without subclassing them excessively or modifying their code directly. This promotes code reuse, as decorators can be stacked or combined to create different combinations of functionalities. Additionally, it allows for a more modular and cohesive codebase, as each decorator focuses on a specific responsibility, making it easier to manage and maintain the code.
 
 # UML Diagram
-Here's a simplified UML diagram to help you visualize the structure of the Observer Pattern in this project:
+Here's a simplified UML diagram to help you visualize the structure of the Decorator Pattern in this project:
 
-![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/e05bd3cf-cd33-4305-a527-ad57e6df6d03)
+![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/e058f7a3-343f-49c1-9f7f-c57e662ed0af)
 
 Feel free to explore the source code to see how these concepts are implemented in practice. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to me.

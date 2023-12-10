@@ -14,7 +14,7 @@ Subject: an object that maintains a list of its dependents, also known as observ
 
 Observer: an object that is notified and updated by the subject whenever the state of the subject changes.
 
-# Implementation of Simplified Hotel Management System
+# Implementation of Real-time News Subscription Service
 In this project, I've applied the Observer Pattern to create a Real-time News Subscription Service. With this implementation, the clients can easily subscribe and unsubscribe in various services.
 
 ![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/80259536-7be1-4638-9d0c-2ba8154aafab)
