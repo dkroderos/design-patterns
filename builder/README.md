@@ -1,4 +1,4 @@
-# Builder Pattern for Centralized Queueing System for Pag-Ibig Office
+# Builder Pattern for Flexible Creation of Objects
 Welcome to my GitHub repository for a simple implementation of Builder Pattern. In this README, I'll provide a brief overview of the Builder Pattern and how it's applied in this project.
 
 # What is the Builder Pattern?
@@ -27,7 +27,7 @@ Data consistency: Changes to user profiles after registration can cause unexpect
 # Implementation of Builder Pattern
 In this project, I've applied the Builder Pattern for solving the problem. With this implementation, creating a User is now flexible.
 
-![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/d376cfae-cbcf-482c-b2ea-0c67a1a163f5)
+![image](https://github.com/dkroderos/design-patterns/assets/75028710/cd174632-43be-44fb-b225-474f63a1e71a)
 
 # Benefits of the Builder Pattern
 
@@ -36,6 +36,7 @@ Builder Pattern is beneficial for creating complex objects with a step-by-step c
 # UML Diagram
 Here's a simplified UML diagram to help you visualize the structure of the Builder Pattern in this project:
 
-![image](https://github.com/davidkingroderos/design-patterns/assets/75028710/b1be400c-cfcf-4b1a-bdf1-57108fd69800)
+![image](https://github.com/dkroderos/design-patterns/assets/75028710/e83f7bae-b589-4d6f-8d94-29338d4c6a87)
+
 
 Feel free to explore the source code to see how these concepts are implemented in practice. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to me.
