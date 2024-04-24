@@ -1,18 +1,33 @@
 public class Telco implements TelcoSubscription {
-    private String telcoName;
-    private double promoPrice;
-    private int dateAllowance;
-    private boolean unliCallText;
+    private final String name;
+    private final int dataAllowance;
+    private final int promoPrice;
+    private final boolean unliCallText;
 
-    public Telco(String telconame, double promoPrice, int dateAllowance, boolean unliCallText) {
-        this.telcoName = telconame;
+    public Telco(int dataAllowance, int promoPrice, String name, boolean unliCallText) {
+        this.name = name;
+        this.dataAllowance = dataAllowance;
         this.promoPrice = promoPrice;
-        this.dateAllowance = dateAllowance;
         this.unliCallText = unliCallText;
     }
 
     @Override
-    public String accept() {
+    public int getDataAllowance() {
+        return dataAllowance;
+    }
 
+    @Override
+    public int getPromoPrice() {
+        return promoPrice;
+    }
+
+    @Override
+    public boolean getUnliCallText() {
+        return unliCallText;
+    }
+
+    @Override
+    public String getTelcoName() {
+        return name;
     }
 }
