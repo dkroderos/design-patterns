@@ -10,7 +10,7 @@ public class Pet {
     public String getPetName() {
         return this.petName;
     }
-    
+
     public String getPetOwner() {
         return this.petOwner;
     }
