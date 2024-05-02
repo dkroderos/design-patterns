@@ -1,4 +1,4 @@
-public class Samsung implements Communicable, Browsable, Camera {
+public class Samsung implements Communicable, Textable, Browsable, Camera {
     public void makeCall(String number) {
         System.out.println("Calling " + number + " via Samsung");
     }
@@ -6,7 +6,7 @@ public class Samsung implements Communicable, Browsable, Camera {
     public void sendSMS(String number, String message) {
         System.out.println("Sending to " + number + ": " + message + " via Samsung");
     }
-    
+
     public void browseWeb(String url) {
         System.out.println("Browsing " + url + " via Samsung");
     }

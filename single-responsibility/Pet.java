@@ -1,4 +1,4 @@
-public class Pet implements Noisy, Feedable {
+public class Pet {
     private String petName;
     private String petOwner;
 
@@ -23,11 +23,4 @@ public class Pet implements Noisy, Feedable {
         this.petOwner = petOwner;
     }
 
-    public String makeSound() {
-        return petName + " is annoying " + petOwner + " by making noise";
-    }
-
-    public String eat() {
-        return petOwner + " is feeding " + petName;
-    }
 }

@@ -1,4 +1,4 @@
-public class IPhone implements Communicable, Browsable, Camera {
+public class IPhone implements Communicable, Textable, Browsable, Camera {
     public void makeCall(String number) {
         System.out.println("Calling " + number + " via iPhone");
     }
