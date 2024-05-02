@@ -3,10 +3,12 @@ public class Cat extends Pet implements Noisy, Feedable {
         super(petName, petOwner);
     }
 
+    @Override
     public String makeSound() {
-        return super.getPetName() + " is annoying " + super.getPetOwner() + " by making noise";
+        return "A cat named " + super.getPetName() + " is annoying " + super.getPetOwner() + " by making noise";
     }
 
+    @Override
     public String eat() {
         return super.getPetOwner() + " is feeding " + super.getPetName();
     }

@@ -22,5 +22,4 @@ public class Pet {
     public void setPetOwnwer(String petOwner) {
         this.petOwner = petOwner;
     }
-
 }
