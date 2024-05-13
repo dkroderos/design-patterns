@@ -1,0 +1,3 @@
+interface Resource {
+    String borrow();
+}
